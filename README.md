@@ -1,6 +1,12 @@
 # RL-for-compilation-of-product-formula-hamiltonian-simulation
 
-This code accompanies the paper "Compilation of product-formula Hamiltonian simulation via reinforcement learning". In this manuscript, we demonstate that Reinforcement Learning (RL) agents can solve problems with up to 7 qubits. We further compare the RL agent's performance against two other methods, namely simulated annealing (SA) and Monte Carlo tree search (MCTS). Compare to the other methods, RL agents generate solutions lower mapping gate counts.
+This code accompanies the paper "Compilation of product-formula Hamiltonian simulation via reinforcement learning". 
+
+In situations where the order isn't fixed by the goal of minimizing approximation errors, we propose selecting the order to enhance compilation for a specific quantum architecture. This introduces a novel compilation problem: "order-agnostic quantum circuit compilation", which we proof to be NP-hard in the worst-case.
+
+Since finding an exact solution is computationally challenging, we turn to heuristic optimization methods. Our focus is on reinforcement learning (RL), in particular, Double Deep Q Learning (DDQN), due to the sequential nature of the compilation process, and we compare its performance to two other methods: simulated annealing (SA) and Monte Carlo tree search (MCTS). Our results reveal that RL, in terms of gate count, demonstrates an improvement of approximately 12% over the second-best method, MCTS, and about 50% over a basic heuristic.
+Furthermore, we assess the ability of reinforcement learning to generalize across different instances of the compilation problem and find that a single learner can effectively tackle entire problem families. This study highlights the potential of machine learning techniques in providing valuable assistance for order-agnostic quantum compilation tasks.
+
 
 
 ## Runfiles
