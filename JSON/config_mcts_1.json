@@ -1,0 +1,13 @@
+{"idx": "mcts_1",
+  "qubits": 4,
+  "size": 8,
+"strategy": "mcts",
+"device": -1,
+"pad": -1,
+"reward_fun": "naive",
+"eps_0": 85,
+"gamma": 1.0,
+"max_ep_steps": 200,
+"max_runtime": 86400,
+"repeat_actions": 1,
+"max_solutions": 100}

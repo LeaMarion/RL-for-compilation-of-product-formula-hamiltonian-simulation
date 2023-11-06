@@ -1,0 +1,10 @@
+{"idx": "sa_naiveinit",
+  "n_qubits": 4,
+  "size": 8,
+"strategy": "sa",
+"init": "naive",
+"anneal_strategy": "linear",
+"max_evaluations": 1000000,
+  "max_steps": 500000,
+"action_size": 100
+}
