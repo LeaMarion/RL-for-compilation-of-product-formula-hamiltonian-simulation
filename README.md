@@ -1,6 +1,6 @@
 # RL-for-compilation-of-product-formula-hamiltonian-simulation
 
-This code accompanies the paper "Compilation of product-formula Hamiltonian simulation via reinforcement learning". In this manuscript, we demonstate that Reinforcement Learning (RL) agents can solve problems with up to 7 qubits. We further compare the RL agent's performance against two other methods, namely simulated annealing (SA) and Monte Carlo tree search (MCTS). Compare to the other methods, RL agents produce solutions lower mapping gate counts.
+This code accompanies the paper "Compilation of product-formula Hamiltonian simulation via reinforcement learning". In this manuscript, we demonstate that Reinforcement Learning (RL) agents can solve problems with up to 7 qubits. We further compare the RL agent's performance against two other methods, namely simulated annealing (SA) and Monte Carlo tree search (MCTS). Compare to the other methods, RL agents generate solutions lower mapping gate counts.
 
 
 ## Runfiles
